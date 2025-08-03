@@ -1,38 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 750px;
     margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
 }
 
 h1 {
     text-align: center;
+    color: #007bff;
+    margin-bottom: 10px;
 }
 
 input {
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
 }
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
+    font-size: 16px;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
 }
 
 button:hover {
@@ -44,8 +50,20 @@ button:hover {
 }
 
 .job {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 4px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.job h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.job p {
+    margin: 5px 0;
+    color: #444;
 }
